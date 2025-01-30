@@ -8,3 +8,4 @@ D=D-A
 @10 
 M=D
 ```
+![Resultado](../../../../assets/Actividad7.png)
