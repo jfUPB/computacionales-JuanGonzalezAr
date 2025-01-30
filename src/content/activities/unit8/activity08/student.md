@@ -11,17 +11,17 @@ D=A
 @7 
 M=D
 ```
-Caso 1
+Caso 2
 ``` asm
 @5 
 M=A 
 D=M 
 @10 
-D=D-A 
+D=A-D 
 @7 
 D;JGE 
 @1 
 D=A 
 @7 
-M=D
+M=D 
 ```
