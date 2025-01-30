@@ -11,6 +11,7 @@ D=A
 @7 
 M=D
 ```
+![Caso1](../../../../assets/Caso2Act8.png)
 Caso 2
 ```
 @5 
@@ -25,5 +26,5 @@ D=A
 @7 
 M=D
 ```
-![Caso1](../../../../assets/Caso2Act8.png)
+
 
