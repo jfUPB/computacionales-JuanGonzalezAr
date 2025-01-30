@@ -1,30 +1,3 @@
-```
-@5 
-M=A 
-D=M 
-@10 
-D=D-A
-@7 
-D;JLT
-@1 
-D=A 
-@7 
-M=D
-```
-![Caso1](../../../../assets/Caso2Act8.png)
-Caso 2
-```
-@5 
-M=A 
-D=M 
-@10 
-D=A-D
-@7 
-D;JGE 
-@1 
-D=A 
-@7 
-M=D
-```
-
+# Diagrama
+![DiagramaHack](../../../../assets/
 
