@@ -53,11 +53,11 @@ Binario: 0000000000000101
 - ddd → Código del destino (dest).
 - jjj → Código del salto (jump).
 ## 3.Ejemplos:
-**A instructions:**
+- **A instructions:**
 - @10 A=10 Binario: 0000000000001010
 - @SCREEN A=16384 Binario: 0100000000000000
 - @40 A=40 Binario: 101000
-**C instructions:**
+- **C instructions:**
 - D=M  // D = RAM[A] Cargar en D el valor de la memoria apuntada por A
 - D=D+A  // D = D + A Sumar D con A y almacenar el resultado en D
 - D;JGT  // Si D > 0, saltar a la dirección A
