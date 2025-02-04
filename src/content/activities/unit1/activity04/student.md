@@ -32,18 +32,6 @@ Contienen tres partes:
 @5  // Carga 5 en el registro A
 ```
 - Binario: 0000000000000101
-## **2. ¿Cómo se representa cada tipo de instrucción en binario?**
-
-### **A-instruction:**
-- Siempre comienza con `0`, seguido por un número binario de **15 bits** que representa la dirección o el valor.
-#### **Formato en binario:**
-0vvvvvvvvvvvvvvv
-(donde `vvvvvvvvvvvvvvv` es el número en binario).
-#### **Ejemplo:**
-```assembly
-@5  // Carga 5 en el registro A
-Binario: 0000000000000101
-```
 ### C-instruction:
 - Siempre comienza con 111, seguido de los bits que representan la operación, destino y salto.
 ##### Formato en binario
