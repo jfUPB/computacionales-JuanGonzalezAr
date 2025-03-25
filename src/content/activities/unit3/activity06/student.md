@@ -1,6 +1,6 @@
 ## Experimentos
 ### Experimento 5
-#### ¿Qué ocurre?, ¿Por qué?, Ves alguna diferencia entre las variables locales estáticas y no estáticas? y ¿Qué pasa con las variables cada que entras y sales de la función? *funcionSinStatic() siempre imprime 100 porque su variable local se destruye y se vuelve a crear en cada iteración.
+- ¿Qué ocurre?, ¿Por qué?, Ves alguna diferencia entre las variables locales estáticas y no estáticas? y ¿Qué pasa con las variables cada que entras y sales de la función? *funcionSinStatic() siempre imprime 100 porque su variable local se destruye y se vuelve a crear en cada iteración.
 
 - funcionConStatic() imprime valores crecientes, ya que var_estatica se mantiene entre llamadas.
 - Las variables normales (var_no_estatica) se crean y destruyen en cada llamada, por lo que se reinician siempre.
