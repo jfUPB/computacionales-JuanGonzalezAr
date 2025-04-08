@@ -11,8 +11,8 @@ Destructor: Punto cambiado(70, 80) destruido.
 ```
 - Este mensaje indica que se ha destruido una copia del objeto original, no el original.
 
-- ¿Por qué original sigue existiendo luego de llamar a cambiarNombre?
-Porque la función cambiarNombre recibe su parámetro por valor.
+### ¿Por qué original sigue existiendo luego de llamar a cambiarNombre?
+- Porque la función cambiarNombre recibe su parámetro por valor.
 
 - Esto significa que:
 
@@ -29,11 +29,11 @@ Porque la función cambiarNombre recibe su parámetro por valor.
 - Se ejecuta su destructor, de ahí el mensaje de destrucción.
 
 🧠 ¿En qué parte del mapa de memoria se encuentran original y p?
-- 🟩 original
+### 🟩 original
 . Se encuentra en el stack de main(), ya que es una variable local.
 - Sus atributos (name, x, y) también están en el stack.
 
-- 🟨 p (en cambiarNombre)
+### 🟨 p (en cambiarNombre)
 - Es una copia de original.
 
 - Sus atributos también están en el stack, pero son independientes.
@@ -46,7 +46,7 @@ Porque la función cambiarNombre recibe su parámetro por valor.
 
 - ➡️ Por lo tanto, original y p no son el mismo objeto. Son objetos distintos con valores similares, pero completamente independientes en memoria.
 
-- 🛠️ Cambio de la función cambiarNombre (uso de referencia)
+🛠️ Cambio de la función cambiarNombre (uso de referencia)
 - Si modificamos la función para que reciba una referencia:
 
 ```cpp
@@ -61,12 +61,12 @@ void cambiarNombre(Punto& p) {
 
 - Modificar p.name equivale a modificar original.name.
 
-- 🧪 Cambio en el main y el efecto de la nueva función
+ 🧪 Cambio en el main y el efecto de la nueva función
 ```cpp
 Punto original("original", 70, 80);
 cambiarNombre(original);
 ```
-- ¿Qué ocurre ahora?
+### ¿Qué ocurre ahora?
 - p apunta a la misma dirección de memoria que original.
 
 - Cuando cambiamos p.name, se está modificando directamente el objeto en main.
