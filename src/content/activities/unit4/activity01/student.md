@@ -28,7 +28,7 @@ for (auto& pos : snake) {
 
 6. **¿Cómo se verifica si la lista está vacía?**
 - Antes de eliminar un nodo, se usa la condición:
-  ```
-if (!snake.empty()) { Esto comprueba si la lista contiene nodos antes de intentar eliminar uno. }
-
 ```
+if (!snake.empty()) 
+```
+{ Esto comprueba si la lista contiene nodos antes de intentar eliminar uno. }
