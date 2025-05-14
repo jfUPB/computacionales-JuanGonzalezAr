@@ -1,0 +1,9 @@
+```asm
+@16384 
+D=A 
+@16384 
+M=-1 
+@1 
+0;JMP
+```
+![Actividad11](../../../../assets/Activ11.png)
